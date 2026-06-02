@@ -1,0 +1,37 @@
+CAD LATENT EVALUATION REPORT
+==================================================
+
+1. PCA
+------------------------------
+PC1 variance: 0.1845
+PC2 variance: 0.1745
+
+2. COSINE SIMILARITY
+------------------------------
+mean_similarity: 0.0013
+std_similarity: 0.3123
+max_similarity: 1.0000
+min_similarity: -0.8814
+
+3. COMPLEXITY BIAS
+------------------------------
+mean_abs_corr: 0.0942
+max_abs_corr: 0.2443
+min_abs_corr: 0.0002
+
+VERDICT: EXCELLENT semantic latent
+
+4. CLUSTER DISTRIBUTION
+------------------------------
+cluster_0: 123
+cluster_1: 139
+cluster_2: 63
+cluster_3: 49
+cluster_4: 156
+cluster_5: 114
+cluster_6: 79
+cluster_7: 56
+
+Interpretation:
+If residual PCA still shows cluster structure,
+the encoder has learned geometry semantics.
